@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
                 // see the reports by clicking right of the target and show in explorer. You decide the location so you can change it also.
                 // we added one more which is json. For transfering data it's popular. Our framework we will add another report, look like much better so
                 // cucumber html report independe@ant plugger that generate nice report. To be able to generate it plugin needs json and it can generate it for readable
-                // nice and user friendly report. That's why we generated it here.
+                // nice and user-friendly report. That's why we generated it here.
                 "rerun:target/rerun.txt"} // To generate txt file with
         // at the end of the test, this file will be under target folder
 )
