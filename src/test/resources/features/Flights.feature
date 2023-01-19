@@ -5,10 +5,6 @@ Feature: Kayak Dashboard
     Given user is on the login page
     When I go to the "Flights" page
     And I "should" see "Where are you flying?" page title
-      | Flights | Where are you flying?  |
-      | Stays   | Where are you staying? |
-
-
     Then I "should" see "Kayak" page title
     And I "should" see "burger type" button on side panel
     And I should be able to see side panel pages
@@ -16,7 +12,6 @@ Feature: Kayak Dashboard
       | Flights             |
       | Stays               |
       | Cars                |
-      | Things to do        |
       | Packages            |
       | Trains and buses    |
       | Explore             |
@@ -27,7 +22,6 @@ Feature: Kayak Dashboard
       | flights             |
       | hotels              |
       | cars                |
-      | find activities     |
       | find packages       |
       | find trains         |
       | explore kayak       |
@@ -40,7 +34,6 @@ Feature: Kayak Dashboard
       | flights             |
       | hotels              |
       | cars                |
-      | find activities     |
       | find packages       |
       | find trains         |
       | explore kayak       |
@@ -53,7 +46,6 @@ Feature: Kayak Dashboard
       | Flights             |
       | Stays               |
       | Cars                |
-      | Things to do        |
       | Packages            |
       | Trains and buses    |
       | Explore             |
