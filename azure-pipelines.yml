@@ -1,7 +1,7 @@
 # Build error check for GitHub PRs for KayakAutomation repo
 
 trigger:
-- main
+- Test.AloninaOlga
 
 pool:
   vmImage: ubuntu-latest
