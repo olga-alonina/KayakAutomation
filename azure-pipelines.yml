@@ -3,8 +3,6 @@
 trigger:
 - Test.AloninaOlga
 
-pool:
-  vmImage: ubuntu-latest
 
 steps:
 - task: Maven@3
